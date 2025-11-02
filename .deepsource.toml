@@ -1,10 +1,7 @@
 version = 1
 
 [[analyzers]]
-name = "javascript"
-
-[[analyzers]]
-name = "csharp"
-
-[[analyzers]]
 name = "cxx"
+
+[[transformers]]
+name = "clang-format"
